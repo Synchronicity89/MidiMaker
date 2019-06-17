@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <SDL2/SDL_ttf.h>
 #include <limits.h>
-#include "wavHandler.h"
+#include "global.h"
 #include "mainFunctions.h"
 #include <unistd.h>
 

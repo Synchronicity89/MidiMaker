@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "FFT.h"
-#include "wavHandler.h"
+#include "global.h"
 
 /*How out of tune is the player allowed to be*/
 #define DELTA_FREQ 0.017

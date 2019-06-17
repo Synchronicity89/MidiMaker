@@ -15,6 +15,8 @@
 #include <unistd.h>
 #include <limits.h>
 #include "gui.h"
+#include "global.h"
+
 
 #define VERBOSE_NONE 0
 #define VERBOSE_LIGHT 1

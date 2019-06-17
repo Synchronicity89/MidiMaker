@@ -9,6 +9,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "global.h"
 
 /**The standard format codes for waveform data. Only WAVE_FORMAT_PCM and WAVE_FORMAT_EXTENSIBLE seems to be useful theses days.*/
 #define WAVE_FORMAT_UNDEFINED 0x0000
@@ -84,14 +85,5 @@ void initWavHeader(WavHeader* h);
 __uint32_t load(char* filename, WavHeader* header, int** samples);
 
 void printWavHeader(WavHeader* h);
-
-void* safe_malloc(size_t __size);
-
-void* safe_realloc(void* ptr, size_t __size);
-
-void* safe_calloc(size_t __nmenb, size_t __size);
-
-
-
 
 #endif //WAVHANDLER_H

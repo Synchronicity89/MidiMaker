@@ -17,7 +17,10 @@ add_executable(mainTests tests/mainTests.c
 		tests/testMidi.c tests/testMidi.h src/MIDIHandler.c src/MIDIHandler.h
 		tests/testNotes.c tests/testNotes.h src/notes.c src/notes.h
 		tests/testFFT.c tests/testFFT.h src/FFT.c src/FFT.h libfftw3/fftw3.h
-		tests/testFrequencyHandler.c tests/testFrequencyHandler.h src/frequencyHandler.c src/frequencyHandler.h)
+		tests/testFrequencyHandler.c tests/testFrequencyHandler.h src/frequencyHandler.c src/frequencyHandler.h
+		src/global.h src/global.c
+		)
+
 target_link_libraries(mainTests ${CMOCKA_LIBRARY} ${FFTw_LIBRARY} m)
 
 # The main target
@@ -29,6 +32,7 @@ add_executable(MidiMaker src/main.c
         src/notes.h src/notes.c
 		src/gui.h src/gui.c
         src/wavHandler.h src/wavHandler.c
+		src/global.h src/global.c
         )
 include_directories(MidiMaker /usr/include/SDL2)
 target_link_libraries(MidiMaker ${FFTw_LIBRARY} m ${SDL2_LIBRARIES} SDL2_ttf)

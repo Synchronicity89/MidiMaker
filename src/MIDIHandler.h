@@ -12,15 +12,8 @@
 #include <string.h>
 #include "notes.h"
 #include <errno.h>
-#include "wavHandler.h"
-
-#ifndef MIDIMaker_old
+#include "global.h"
 #include "frequencyHandler.h"
-#endif
-#ifdef MIDIMaker_old
-#include "matrice.h"
-#include "tabNotes.h"
-#endif
 
 
 

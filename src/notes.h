@@ -5,14 +5,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "wavHandler.h"
-#ifndef MIDIMaker_old
+#include "global.h"
 #include "frequencyHandler.h"
-#endif
-#ifdef MIDIMaker_old
-#include "matrice.h"
-#include "tabNotes.h"
-#endif
+
 
 #define NB_NOTES_MAX 100000
 #define NOTE_FREQ_MUL 1.059463094

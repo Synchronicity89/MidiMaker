@@ -12,6 +12,7 @@
 #include "../libfftw3/fftw3.h"
 #include <complex.h>
 #include <math.h>
+#include "global.h"
 #include "wavHandler.h"
 
 /**The constants that are needed for the Fast Fourier Transform.*/
