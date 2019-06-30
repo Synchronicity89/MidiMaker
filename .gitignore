@@ -1,0 +1,18 @@
+#ignore .o files
+*.o
+
+#ignore targets
+MidiMaker
+mainTests
+
+#ignore codeblocks and makefiles
+*.cbp
+Makefile
+
+#ignore cmake files
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+
+#ignore a hidden directory .idea/
+.idea/
