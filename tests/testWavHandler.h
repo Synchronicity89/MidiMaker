@@ -5,7 +5,8 @@
 #include <stdlib.h>
 #include "../src/wavHandler.h"
 #include <string.h>
-#include <unistd.h>
+//#include <unistd.h>
+#include <windows.h>
 #include <limits.h>
 #include "../src/gui.h"
 

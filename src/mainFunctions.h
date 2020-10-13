@@ -12,7 +12,8 @@
 #include "notes.h"
 #include "MIDIHandler.h"
 #include <string.h>
-#include <unistd.h>
+//#include <unistd.h>
+#include <windows.h>
 #include <limits.h>
 #include "gui.h"
 #include "global.h"

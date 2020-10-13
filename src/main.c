@@ -10,7 +10,8 @@
 #include <limits.h>
 #include <string.h>
 #include "FFT.h"
-#include <unistd.h>
+ //#include <unistd.h>
+#include <windows.h>
 #include "frequencyHandler.h"
 #include "mainFunctions.h"
 #include "MIDIHandler.h"
